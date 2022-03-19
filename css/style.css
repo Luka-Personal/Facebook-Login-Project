@@ -244,8 +244,13 @@ hr {
 /* FOOTER */
 .footer {
   background-color: #fff;
+  margin: 0 auto;
   margin-top: 22rem;
   padding: 3rem 3.55rem 11rem 4rem;
+}
+.footer-container {
+  max-width: 107rem;
+  margin: 0 auto;
 }
 .footer-flex {
   display: flex;
