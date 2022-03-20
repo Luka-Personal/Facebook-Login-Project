@@ -23,18 +23,26 @@
       <div class="container">
         <div class="grid">
           <div class="left">
-            <img src="img/dF5SId3UHWd.svg" alt="facebook logo" class="fb-svg" />
-            <h2>Recent Logins</h2>
-            <p>Click your picture or add an account.</p>
+            <div class="left-title">
+              <img
+                src="img/dF5SId3UHWd.svg"
+                alt="facebook logo"
+                class="fb-svg"
+              />
+              <h2>Recent Logins</h2>
+              <p>Click your picture or add an account.</p>
+            </div>
             <div class="card-flex">
               <div class="pfp-card">
-                <img src="./img/me.jpg" alt="my foto" class="pfp-photo" />
-                <p>Luka</p>
+                <div class="pfp-no-close">
+                  <img src="./img/me.jpg" alt="my foto" class="pfp-photo" />
+                  <p>Luka</p>
+                  <div class="notf-pf">
+                    <span class="notfs">7</span>
+                  </div>
+                </div>
                 <div class="remove-pf">
                   <ion-icon name="close-outline" class="remove-icon"></ion-icon>
-                </div>
-                <div class="notf-pf">
-                  <span class="notfs">7</span>
                 </div>
               </div>
               <div class="pfp-card new">
@@ -44,10 +52,53 @@
                 <p>Add Account</p>
               </div>
             </div>
+            <div class="abs-login abs-hide">
+              <form action="#">
+                <div class="login-background-abs">
+                  <img src="./img/me.jpg" alt="my foto" class="abs-photo" />
+                  <span class="abs-user">Luka Cinaridze</span>
+                  <input
+                    type="password"
+                    name="name"
+                    required
+                    class="form-item"
+                    placeholder="Password"
+                  />
+                  <div class="login-check">
+                    <input type="checkbox" name="name" />
+                    <span>Remember password</span>
+                  </div>
+                  <button class="form-button narrower-btn">Log In</button>
+                  <div class="reset-box">
+                    <a
+                      class="form-reset bigger-reset"
+                      href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0"
+                      >Forgot password?</a
+                    >
+                  </div>
+                </div>
+                <div class="remove-wnd2 abs-hid">
+                  <ion-icon
+                    name="close-outline"
+                    class="remove-icon-wnd2"
+                  ></ion-icon>
+                </div>
+              </form>
+            </div>
           </div>
           <div class="right">
             <div class="background">
               <form action="#">
+                <div>
+                  <p class="abs-p abs-hide">Log into Facebook</p>
+                  <hr class="abs-hide abs-hr" />
+                  <div class="remove-wnd abs-hide">
+                    <ion-icon
+                      name="close-outline"
+                      class="remove-icon-wnd"
+                    ></ion-icon>
+                  </div>
+                </div>
                 <input
                   type="email"
                   name="name"
@@ -62,18 +113,30 @@
                   class="form-item"
                   placeholder="Password"
                 />
+                <div class="abs-hide flex-check">
+                  <input type="checkbox" name="name" />
+                  <span>Remember password</span>
+                </div>
                 <button class="form-button">Log In</button>
                 <div class="reset-box">
-                  <a class="form-reset" href="#">Forgot password?</a>
+                  <a
+                    class="form-reset"
+                    href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0"
+                    >Forgot password?</a
+                  >
                 </div>
-                <hr />
+                <hr class="form-hr" />
                 <div class="link-new">
-                  <button class="form-new">Create new account</button>
+                  <a href="#" class="form-new">Create new account</a>
                 </div>
               </form>
             </div>
             <p class="form-page">
-              <a href="#">Create a page</a> for a celebrity, brand or business.
+              <a
+                href="https://www.facebook.com/pages/create/?ref_type=registration_form"
+                >Create a page</a
+              >
+              for a celebrity, brand or business.
             </p>
           </div>
         </div>
@@ -126,7 +189,7 @@
           <a href="#">Help</a>
           <i class="img sp_AcVttjh25zD sx_3feebe"></i>
         </div>
-        <p class="trd">Meta &copy 2022</p>
+        <p class="trd">Meta &copy 2077</p>
       </div>
     </footer>
     <script
