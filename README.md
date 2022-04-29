@@ -10,7 +10,7 @@ P.S i know that js is a mess, still practising it
 
 Date Finished 3/20/2022 - Слава Украине!
 
-Created by - Luka Tsinaridze and bit of google :))))
+Created by - Luka Tsinaridze, Languages used - Vanilla Javascript, HTML, CSS
 
 W E B S I T E -- P H O T O S
 
