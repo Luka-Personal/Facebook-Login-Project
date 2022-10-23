@@ -8,7 +8,7 @@ hence why i have used bit of old style code.
 
 P.S i know that js is a mess, still practising it
 
-Date Finished 3/20/2022 - Слава Украине!
+Date Finished 3/20/2022 - Слава Україні!
 
 Created by - Luka Tsinaridze, Languages used - Vanilla Javascript, HTML, CSS
 
